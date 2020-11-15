@@ -1,0 +1,55 @@
+Tests:
+Scenario 1: Crear un caso de seguro de robo
+1-Go to page https://www.experta.com.ar/
+2-Select Secure.
+3-Click on Stole.
+4-Enter since, name, last name, e-mail, prefix, phone number.
+5-Click on quote.
+6-Click on recomended selection.
+7-Select type of person.
+8-Enter name, lastname.
+9-Select tax status.
+10-Enter DNI number.
+11-Select gender.
+12-Enter e-mail, phone number, postalcode.
+13-Select location.
+14-Enter neighborhood, street, adress number, floor, department.
+15-Click on continue.
+16-Select credit card
+17-Select company
+18-Enter credit card number, expiration month, expiration year, account holder.
+19-Click on pay.
+20-Assert DNI number, full name, full adress.
+
+Scenario 2: Crear un caso de seguro de hogar
+1-Go to page https://www.experta.com.ar/
+2-Select Secure.
+3-Click on home.
+4-Enter postal code.
+5-Select location.
+6-Select type of home.
+7-Enter name, lastname, e-mail, prefix, phone number.
+8-Clikc on quote.
+No se puede continuar con el Test por que aparece un captcha.
+
+Herramientas necesarias para correr el framework:
+# install java 11 (skip if already installed)
+# install chromedriver (skip if already installed)
+# clone the project and launch the tests
+git clone git@github.com:emanuel-rytlewski/Experta_Challenge.git
+
+Respuestas:
+1) Es un patrón de diseño que crea un repositorio de onjetos para elementos de la interfaz de usuario web.
+
+2) En mi opinion los flujos que mas se repiten y los que se consideran mas importantes son los que se deberian automatizar.
+Los que no se deben automatizar son aquellos flujos que el owner no considera importantes.
+
+3)Si es una herramienta de automatizacion que se aplica dentro de contenedores, donde cada contenedor representa una maquina virtual.
+
+4)Es un componente recibe las órdenes de ejecución de los tests y coordina a múltiples servidores para ejecutar los test en los distintos nodos de nuestra red. Asegura que las peticiones de los tests se carguen balanceadamente y direcciona las peticiones de cada test al nodo apropiado.
+
+5)a)El testeo se utilizaba al momento en que los desarrolladores hacian un release para verificar que sus cambios no rompieran nada del sistema. Ellos debian correr nuestras pruebas para corroborar.
+
+b)Yo participo en dailys de mi equipo de QA, en retrospectivas del equipo de desarrollo, planning de QA.
+En las planning de QA aportaba la estimacion de las tareas, correcciones/planificacion de test e ideas para mejorar nuestros test.
+
